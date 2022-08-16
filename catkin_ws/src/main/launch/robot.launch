@@ -1,0 +1,26 @@
+<launch>
+	<node pkg="main" type="button.py" name="BUTTON">
+	</node>
+	<node pkg="main" type="i2c.py" args='91' name="LEFT_TEMPERATURE">
+	</node>
+	<node pkg="main" type="i2c.py" args='90' name="RIGHT_TEMPERATURE">
+	</node>
+	<!-- <node pkg="main" type="lidar.py" name="LIDAR">
+	</node>
+	<node pkg="main" type="serial.py" name="SERIAL">
+	</node> -->
+
+	<!-- <node pkg="diagnostic" type="diagnostic.py" name="DIAGNOSTIC">
+	</node>
+
+	<node pkg="aid" type="AID.py" name="AID">
+	</node>
+
+	<node pkg="motion_algorithm" type="main.py" name="MOTION">
+	</node>
+
+	<node pkg="odometry" type="diff_tf.py" name="ODOM">
+	</node>
+	<node pkg="filters" type="map_filter_scan.py" name="MAPPING">
+	</node>  -->
+</launch>

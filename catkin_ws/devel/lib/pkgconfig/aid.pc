@@ -1,0 +1,8 @@
+prefix=/home/perch-robot/catkin_ws/devel
+
+Name: aid
+Description: Description of aid
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

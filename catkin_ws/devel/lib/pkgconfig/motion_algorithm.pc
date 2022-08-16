@@ -1,0 +1,8 @@
+prefix=/home/perch-robot/catkin_ws/devel
+
+Name: motion_algorithm
+Description: Description of motion_algorithm
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
